@@ -1,0 +1,21 @@
+/*=============== CELEBRATE ===============*/
+.celebrate__container {
+    row-gap: 1rem;
+}
+
+.celebrate__data {
+    text-align: center;
+}
+
+.celebrate__title {
+    margin-bottom: var(--mb-1-5);
+}
+
+.celebrate__description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.celebrate__img {
+    width: 280px;
+    justify-self: center;
+}
