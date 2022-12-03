@@ -16,7 +16,7 @@
 }
 
 .message__input {
-    width: 100%;
+    width: 80%;
     background: #fff;
     color: var(--text-color);
     padding: 1rem 1.5rem;
