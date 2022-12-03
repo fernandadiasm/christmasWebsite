@@ -1,0 +1,26 @@
+/*=============== HOME ===============*/
+.home__container {
+    padding-top: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.home__img {
+    width: 320px;
+    justify-self: center;
+}
+
+.home__data {
+    text-align: center;
+}
+
+.home__title {
+    font-size: var(--biggest-font-size);
+    line-height: 140%;
+    margin-bottom: var(--mb-0-5);
+}
+
+.home__description {
+    font-size: var(--small-font-size);
+    padding: 0 2rem;
+    margin-bottom: var(--mb-2-5);
+}
