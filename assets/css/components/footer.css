@@ -1,0 +1,80 @@
+/*=============== FOOTER ===============*/
+.footer {
+    overflow: hidden;
+}
+
+.footer__container {
+    position: relative;
+    row-gap: 2rem;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    column-gap: .25rem;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.footer__logo-img {
+    width: 1.5rem;
+}
+
+
+.footer__description {
+    font-size: var(--small-font-size);
+}
+
+.footer__logo,
+.footer__title {
+    margin-bottom: var(--mb-1);
+}
+
+.footer__title {
+    font-size: var(--h3-font-size);
+}
+
+.footer__links,
+.footer__aviables {
+    display: flex;
+    flex-direction: column;
+    row-gap: .75rem;
+}
+
+.footer__link {
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.footer__link:hover {
+    color: var(--title-color);
+}
+
+.footer__aviable-img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.footer__copy {
+    display: block;
+    margin: 3.5rem 0 1rem 0;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.footer__img1,
+.footer__img2 {
+    position: absolute;
+    width: 100px;
+}
+
+.footer__img1 {
+    top: 25%;
+    right: 2rem;
+}
+
+.footer__img2 {
+    top: 75%;
+    right: -4rem;
+}
