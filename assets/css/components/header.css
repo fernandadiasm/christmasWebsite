@@ -6,10 +6,9 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    transition: .4s;
-    /* for animation dark mode*/
+    transition: 0.4s;
+    /*For animation dark mode*/
 }
-
 
 /*=============== NAV ===============*/
 .nav {
@@ -40,6 +39,20 @@
     display: inline-flex;
     font-size: 1.25rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .nav__menu {
+        position: fixed;
+        background-color: var(--body-color);
+        top: -100%;
+        left: 0;
+        width: 100%;
+        padding: 4rem 0;
+        border-radius: 0 0 1.5rem 1.5rem;
+        box-shadow: 0 1px 4px hsla(0, 4%, 15%, 0.1);
+        transition: 0.4s;
+    }
 }
 
 .nav__img {
@@ -89,18 +102,4 @@
 /* Active link */
 .active-link {
     color: var(--first-color);
-}
-
-@media screen and (max-width: 767px) {
-    .nav__menu {
-        position: fixed;
-        background-color: var(--body-color);
-        top: -100%;
-        left: 0;
-        width: 100%;
-        padding: 4rem 0;
-        border-radius: 0 0 1.5rem 1.5rem;
-        box-shadow: 0 1px 4px hsla(0, 4%, 15%, .1);
-        transition: .4s;
-    }
 }
