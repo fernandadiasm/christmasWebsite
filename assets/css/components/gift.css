@@ -20,8 +20,14 @@
 .gift__img {
     width: 100px;
     justify-self: center;
+    cursor: pointer;
     margin-bottom: var(--mb-0-25);
     transition: .3s;
+}
+
+.gift__img:hover {
+    transform: translateY(-.5rem);
+
 }
 
 .gift__icon {
@@ -31,10 +37,17 @@
     top: 1rem;
     right: 1rem;
     cursor: pointer;
+    transition: .3s;
+}
+
+.gift__icon:hover {
+    transform: translateY(-.20rem);
+    color: var(--btn-color);
 }
 
 .gift__price {
     font-size: var(--h3-font-size);
+    padding-bottom: 10px;
 }
 
 .gift__title {

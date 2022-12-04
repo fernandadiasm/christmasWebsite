@@ -10,5 +10,5 @@
 }
 
 .button:hover {
-    background-color: var(--first-color-alt);
+    background-color: var(--btn-color);
 }

@@ -11,12 +11,6 @@
     overflow: hidden;
 }
 
-.new__card:hover,
-.new__img {
-    transform: translateY(-.5rem);
-
-}
-
 .new__overlay {
     width: 250px;
     height: 250px;
@@ -34,9 +28,14 @@
     margin-bottom: var(--mb-2);
     transition: .3s;
 }
+.new__img:hover {
+    transform: translateY(-.5rem);
+}
+
 
 .new__price {
     font-size: var(--h2-font-size);
+    padding-bottom: 10px;
 }
 
 .new__title {

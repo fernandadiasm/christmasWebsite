@@ -47,7 +47,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color);
+    color: var(--first-color);
 }
 
 .footer__aviable-img {
