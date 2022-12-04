@@ -11,8 +11,7 @@
     --text-color-light: hsl(355, 4%, 55%);
     --body-color: #fff;
     --container-color: #fff;
-    --logo-color1: #86a10f;
-    --logo-color2: #c4191d;
+    --btn-color: hsl(355, 100%, 65%);
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
     --body-font: "Poppins", sans-serif;
