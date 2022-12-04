@@ -29,28 +29,11 @@
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: var(--font-medium);
-    background: repeating-linear-gradient(45deg,
-            var(--logo-color1),
-            var(--logo-color1) 30px,
-            var(--logo-color2) 30px,
-            var(--logo-color2) 60px);
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
-    animation: 40s linear 0s infinite move;
 }
 
-@keyframes move {
-    from {
-        background-position: 0px;
-    }
 
-    to {
-        background-position: 1000px;
-    }
-}
 
 
 .nav__logo-img {
