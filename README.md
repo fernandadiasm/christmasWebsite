@@ -1,4 +1,4 @@
-﻿﻿<h1 align="center"> Natalinas 🎅🏻 </h1>
+﻿﻿<h1 align="center"> Natalina 🎅🏻 </h1>
 
 <p align="center">
   <img alt="Contador de palavras e caracteres" src=".github/preview.png" width="70%">
