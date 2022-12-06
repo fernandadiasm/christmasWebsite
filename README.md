@@ -26,7 +26,7 @@
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
 
-[🔗 You can access the site by clicking here🎄](https://fernandadiasm.github.io/christmasWebsite/)
+[🔗 You can access the site by clicking here 🎄](https://fernandadiasm.github.io/christmasWebsite/)
 
 ## 🚀 Techs
 
